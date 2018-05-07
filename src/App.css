@@ -1,0 +1,59 @@
+.App {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr auto;
+  display: grid;
+}
+
+i {
+  float: right;
+  color: rgb(190, 49, 45)
+}
+
+.card {
+  background-color: white;
+  margin: 1.5%;
+  padding: 2%;
+  height: auto;
+}
+
+.App-header {
+  background-color: #222;
+  height: auto;
+  padding: 20px;
+  color: white;
+  margin-bottom: 2%;
+  grid-column: 1 / 5;
+  grid-row: 1;
+}
+
+.categoryWrapper {
+  display: grid;
+  grid-template-rows: 1fr auto;
+  margin: 1%;
+  background-color: rgb(201, 201, 201);
+}
+
+.categoryWrapper h3 {
+  margin-left: 1%;
+  height: 30px !important;
+  grid-row: 1;
+}
+
+.addCard {
+  border: 0;
+  border-radius: 0;
+  background-color: rgb(201, 201, 201);
+  padding: 2%;
+  width: 100%;
+  text-align: left;
+  color: white;
+  height: 5%;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
