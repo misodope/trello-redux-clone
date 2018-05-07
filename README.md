@@ -1,4 +1,4 @@
-##rello Redux Clone
+## Trello Redux Clone
 This project is a Trello clone made with React and Redux/React-Redux.
 
 ### Initial Setup
