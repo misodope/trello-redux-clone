@@ -2,7 +2,7 @@
 This project is a Trello clone made with React and Redux/React-Redux.
 
 ### Initial Setup
-Clone down the repo.\n
+Clone down the repo. 
 `npm install`
 
 ### Running the Application
