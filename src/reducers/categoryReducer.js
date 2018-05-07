@@ -18,6 +18,11 @@ export default function(state = initialState, action) {
     //     ...state,
     //     categories: action.newCard
     //   }
+    case DELETE_CARD:
+      return {
+        ...state,
+        categories: action.payload
+      }
     default:
       return state;
   }

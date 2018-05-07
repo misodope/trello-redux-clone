@@ -1,6 +1,9 @@
+body {
+  background-color: rgb(10, 148, 227)
+}
 .App {
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr auto;
+  grid-template-rows: 1fr 85vh;
   display: grid;
 }
 
@@ -17,37 +20,67 @@ i {
 }
 
 .App-header {
-  background-color: #222;
+  background-color: #0a88cf;
   height: auto;
   padding: 20px;
   color: white;
-  margin-bottom: 2%;
+  margin-bottom: 1%;
   grid-column: 1 / 5;
   grid-row: 1;
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  opacity: 0.9
 }
 
 .categoryWrapper {
-  display: grid;
-  grid-template-rows: 1fr auto;
-  margin: 1%;
-  background-color: rgb(201, 201, 201);
+  display: flex;
+  flex-direction: column;
+  margin: 2%;
+  background-color: rgb(235, 235, 235);
+  font-family: 'Roboto', sans-serif;
 }
 
 .categoryWrapper h3 {
   margin-left: 1%;
   height: 30px !important;
   grid-row: 1;
+  text-align: center;
 }
 
 .addCard {
   border: 0;
   border-radius: 0;
-  background-color: rgb(201, 201, 201);
+  background-color: rgb(235, 235, 235);
   padding: 2%;
   width: 100%;
   text-align: left;
-  color: white;
+  color: black;
+  font-size: 1em;
   height: 5%;
+}
+
+.addButton {
+  border: 0;
+  border-radius: 0;
+  background-color: rgb(76, 190, 94);
+  padding: 2%;
+  margin-left: 2%;
+  color: white;
+}
+
+.cancelButton {
+  border: 0;
+  border-radius: 0;
+  background-color: rgb(219, 92, 92);
+  padding: 2%;
+  margin-left: 2%;
+  color: white;
+}
+
+.cardBody {
+  width: 95%;
+  margin: 0 2% 0 2%;
+  font-size: 1.2em;
 }
 
 .App-title {
